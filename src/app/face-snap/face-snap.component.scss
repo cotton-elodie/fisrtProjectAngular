@@ -1,0 +1,14 @@
+.face-snap-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 35%;
+    img {
+      width: 100%;
+    }
+    &-date {
+        font-size: 0.8em;
+    }
+
+
+  }
