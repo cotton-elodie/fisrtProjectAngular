@@ -11,6 +11,8 @@ import { FooterComponent } from './footer/footer.component';
 import { AppRouttingModule } from './app-routing.module';
 import { LandingPageComponentComponent } from './landing-page-component/landing-page-component.component';
 import { SingleFaceSnapComponent } from './single-face-snap/single-face-snap.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NewFaceSnapComponent } from './new-face-snap/new-face-snap.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,14 @@ import { SingleFaceSnapComponent } from './single-face-snap/single-face-snap.com
     HeaderComponent,
     FooterComponent,
     LandingPageComponentComponent,
-    SingleFaceSnapComponent
+    SingleFaceSnapComponent,
+    NewFaceSnapComponent
   ],
   imports: [
     BrowserModule, 
     AppRouttingModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [
     {provide: LOCALE_ID, useValue: 'fr-FR'}
