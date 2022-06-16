@@ -1,0 +1,17 @@
+footer{
+    text-align: center;
+    background-color: #013461;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    &-link{
+        color: #c18f0a;
+
+    }
+
+}
